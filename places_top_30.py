@@ -38,4 +38,4 @@ top_30_df_styled = (
 )
 
 st.write("POI and Brand Counts - Top 30 Countries outside the US")
-st.dataframe(top_30_df_styled, use_container_width=True)
+st.dataframe(top_30_df_styled, use_container_width=True, hide_index=True)
